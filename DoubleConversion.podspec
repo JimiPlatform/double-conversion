@@ -15,7 +15,5 @@ Pod::Spec.new do |spec|
   
 end
 
-#校验指令
-#pod lib lint DoubleConversion.podspec --verbose --allow-warnings --use-libraries
-#发布命令
-#pod trunk push DoubleConversion.podspec --verbose --allow-warnings --use-libraries
+#打包命令
+#pod package DoubleConversion.podspec --force --no-mangle --exclude-deps --verbose
